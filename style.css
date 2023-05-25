@@ -106,10 +106,12 @@ a {
 }
 
 .nav__link:hover {
-    padding: 5px 8px;
-    background: rgb(29, 29, 77);
-    border-radius: 3px;
+    padding: 3px 8px;
+    background: rgb(253, 253, 253);
+    border-radius: 6px;
     transition: 0.3s;
+    color: #383737;
+    border-color: #161515;
 }
 
 .btn__close {
@@ -790,18 +792,67 @@ a {
     font-size: 1rem;
     font-weight: bold;
 }
-.contacto_dato {
-    font-size: 0.9rem;
+
+.form__contact{
+   
+    text-align: center;
+    width: 350px;
+    margin:auto;
+  
 }
 
-.contacto__img {
-    width: 50px;
-    position: relative;
-    bottom: -12px;
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.2) ;
+    padding: 10px 10px 10px;
+    border: 1.5px solid #fffefe;
 }
+
+label{
+    color: #000000;
+    font-size: var(--Subsection-18px-regular-mobile);
+    font-weight: 600;
+    margin-bottom:5px;
+    margin-top: 15px;
+}
+input, textarea{
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin-bottom:5px;
+    background-color: #fdf9de;
+    border:0.5px solid #fff9d5;
+    color:#1d1d1d;
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    color:rgb(74, 74, 74);
+    font-size: 10px;
+}
+
+.btn__send {
+    font-size: 18px;
+    color:#ffffff;
+    border: 0;
+    border-radius: 6px;
+    background-color: #60d46a;
+    box-shadow:0 0 2px  #3cba46 ;
+    cursor: pointer;
+}
+ 
+.btn__send:hover{
+    background-color: #49f257;
+}
+
+
 .footer {
     padding: 2rem;
-    text-align: center;
-            }
+    text-align:center;
+
+}
 }
 }

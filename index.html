@@ -163,32 +163,26 @@
 
     <Section id=contacto class="contacto section">
         <p class="contacto__subtitle">Contacto</p>
-        <div class="contacto__datos">
-            <div>
-                <div class="contacto__circulo">
-                    <img src="./Íconos/phone.svg" alt="Phone" class="contacto__img">
-                </div>
-                <div class="contacto__texto">
-                    <p class="contacto_bold">Número Celular</p>
-                    <p class="contacto_dato">302 2218 346</p>
-                </div>
-            </div>
-            <div>
-                <div class="contacto__circulo">
-                    <img src="./Íconos/mail 1.svg" alt="Email" class="contacto__img">
-                </div>
-                <div class="contacto__texto">
-                    <p class="contacto_bold">Email</p>
-                    <p class="contacto_dato">esmeraldacamachob@gmail.com</p>
-                </div>
-            </div>
-            <div>
+             
+            <form class="form__contact">            
+            <div class="input-group">
+                <label form="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+            
+                <label form="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
 
-                <span class="footer">Hecho con 🤍 por Esmeralda Camacho</span>
-
+                <label form="Mensaje">Mensaje</label>
+                <textarea  name="Mensaje" id="Mensaje" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <input class="btn__send" type="submit" value="Enviar">            
             </div>
+                
+            </form>
+
+        <div>        
+            <span class="footer">Hecho con 🤍 por Esmeralda Camacho</span>
         </div>
     </Section>
 </body>
 
-</html>
+</html>     
